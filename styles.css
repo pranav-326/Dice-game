@@ -31,6 +31,29 @@ img {
   width: 80%;
 }
 
+.yo{
+  display: flex;
+  justify-content: center;
+}
+
+.button{
+   height: 20px;
+   width: 100px;
+   
+   display: flex;
+   justify-content: center;
+}
+
+button{
+  height: 20px;
+   width: 100px;
+   background-color: lightgreen;
+   display: flex;
+   border-radius: 20%;
+   justify-content: center;
+}
+
+
 footer {
   margin-top: 5%;
   color: #EEEEEE;

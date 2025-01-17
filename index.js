@@ -1,4 +1,5 @@
-var randomNumber1=Math.floor(Math.random()*6)+1;//initializing random nums to select random imgs
+function Display(){
+    var randomNumber1=Math.floor(Math.random()*6)+1;//initializing random nums to select random imgs
 var randomNumber2=Math.floor(Math.random()*6)+1;
 
 var randomDiceImg1="images/dice"+randomNumber1+".png";//added folder two select random img from images
@@ -16,3 +17,8 @@ if (randomNumber1<randomNumber2) {
 if (randomNumber1==randomNumber2) {
     document.querySelector("h1").textContent="It's a draw :<";
 }
+}
+$("button").click(function () { 
+    Display();
+    
+});
