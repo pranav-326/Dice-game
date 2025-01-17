@@ -18,7 +18,8 @@ if (randomNumber1==randomNumber2) {
     document.querySelector("h1").textContent="It's a draw :<";
 }
 }
-$("button").click(function () { 
+var started=false;
+$(".button").click(function () { 
     Display();
     
 });
