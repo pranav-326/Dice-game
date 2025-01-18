@@ -46,7 +46,8 @@ img {
 
 button{
   height: 20px;
-   width: 100px;
+   width: 50px;
+   font-family: 'Lobster', cursive;
    background-color: lightgreen;
    display: flex;
    border-radius: 20%;
